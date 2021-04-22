@@ -1,0 +1,38 @@
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent ;
+    display: inline-block;
+    margin: -2px;
+    font-size: 90px;
+    text-align: center;
+    background-color: rgb(255, 246, 233);
+
+}
+
+.light:hover{
+    background-color: rgb(219, 205, 181);
+}
+
+
+.dark:hover{
+background-color: rgb(87, 52, 28);
+}
+
+.dark{
+    background-color: rgb(114, 75, 48);
+}
+
+.container{
+    width: 100%;
+    max-width: 814px;
+    margin: 0 auto;
+    border: 40px solid rgb(90, 68, 51);
+    border-radius: 20px;
+}
